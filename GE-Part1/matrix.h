@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include "vec4.h"
-//SSE
+//SIMD
 #include <xmmintrin.h>  
 #include <smmintrin.h>  
 //1.Use alignas(32) to ensure that matrix data is aligned to 32bytes, making it easier for SIMD instructions to load data efficiently.
